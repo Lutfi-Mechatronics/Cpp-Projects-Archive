@@ -1,0 +1,11 @@
+﻿Build started 29/6/2015 12:56:30 AM.
+     1>Project "c:\Users\ravenclaw ingram\documents\visual studio 2013\Projects\Mortgage Equation c++\Mortgage Equation c++\Mortgage Equation c++.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Mortgage Equation c++.cpp"
+         Mortgage Equation c++.cpp
+     1>c:\users\ravenclaw ingram\documents\visual studio 2013\projects\mortgage equation c++\mortgage equation c++\mortgage equation c++.cpp(17): error C2661: 'pow' : no overloaded function takes 1 arguments
+     1>Done Building Project "c:\Users\ravenclaw ingram\documents\visual studio 2013\Projects\Mortgage Equation c++\Mortgage Equation c++\Mortgage Equation c++.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.49

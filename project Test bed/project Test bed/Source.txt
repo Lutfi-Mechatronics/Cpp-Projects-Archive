@@ -1,0 +1,72 @@
+system("Color aa");
+string Menu[3] = { "Consumer", "Staff", "Exit" };
+
+
+while (true)
+{
+
+	system("cls");
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);   // 12 must change to set colour to blue
+
+
+	for (int I = 0; I < 3; I = I + 1)
+	{
+
+		if (I == a)
+		{
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);   // 12 must change to set colour to red
+			cout << Menu[I] << endl;
+		}
+
+		else
+		{
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);   //set the text colour back to blue
+			cout << Menu[I] << endl;
+		}
+
+	}
+
+
+	while (true)
+	{
+
+		if (GetAsyncKeyState(VK_LEFT) != 0)
+		{
+			a -= 1;
+			if (a == -1)
+			{
+				a = 2;                                        //Go to the right (Exit)
+			}break;
+
+		}
+
+		else if (GetAsyncKeyState(VK_RIGHT) != 0)
+		{
+			a += 1;
+			if (a == 3)
+			{
+				a = 0;
+			}break;
+		}
+
+		else if (GetAsyncKeyState(VK_CONTROL) != 0)
+		{
+			switch (a)
+			{
+			case 0:
+			{user(); break; }
+			case 1:
+			{salesmans(); break; }
+			case 2:
+			{exit(EXIT_SUCCESS); }
+			}
+			a = 5;
+		}
+
+	}
+
+	Sleep(130);                                       // Sensitivity of the arrow keys
+
+}
+
+return 0;
