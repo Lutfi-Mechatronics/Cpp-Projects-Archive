@@ -1,0 +1,12 @@
+﻿Build started 16/8/2015 11:35:47 PM.
+     1>Project "c:\Users\user\documents\visual studio 2013\Projects\Array Text Files\Array Text Files\Array Text Files.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\array text files\array text files\source.cpp(14): error C2040: 'source' : 'std::string [2]' differs in levels of indirection from 'std::fstream'
+     1>c:\users\user\documents\visual studio 2013\projects\array text files\array text files\source.cpp(18): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "c:\Users\user\documents\visual studio 2013\Projects\Array Text Files\Array Text Files\Array Text Files.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59
